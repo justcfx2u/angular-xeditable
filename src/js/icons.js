@@ -14,8 +14,8 @@ angular.module('xeditable').factory('editableIcons', function() {
         cancel: 'icon-remove'
       },
       'bs3': {
-        ok: 'glyphicon glyphicon-ok',
-        cancel: 'glyphicon glyphicon-remove'
+        ok: 'glyphicons glyphicons-ok',
+        cancel: 'glyphicons glyphicons-remove'
       }
     },
     external: {
