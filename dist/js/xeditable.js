@@ -141,7 +141,7 @@ angular.module('xeditable').directive('editableBsdate', ['editableDirectiveFacto
 
                 //See if calendar button should be displayed
                 if (showCalendarButton === "true") {
-                    var buttonDatePicker = angular.element('<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-calendar"></i></button>');
+                    var buttonDatePicker = angular.element('<button type="button" class="btn btn-secondary btn-sm"><i class="glyphicon glyphicon-calendar"></i></button>');
                     var buttonWrapper = angular.element('<span class="input-group-btn"></span>');
 
                     buttonDatePicker.attr('ng-click', this.attrs.eNgClick);
@@ -2318,7 +2318,7 @@ angular.module('xeditable').factory('editableThemes', function() {
       inputTpl:    '',
       errorTpl:    '<div class="editable-error help-block" data-ng-if="$error" data-ng-bind="$error"></div>',
       buttonsTpl:  '<span class="editable-buttons"></span>',
-      submitTpl:   '<button type="submit" class="btn btn-primary"><span></span></button>',
+      submitTpl:   '<button type="submit" class="btn btn-secondary btn-sm"><span></span></button>',
       cancelTpl:   '<button type="button" class="btn" ng-click="$form.$cancel()">'+
                       '<span></span>'+
                    '</button>'
@@ -2333,8 +2333,8 @@ angular.module('xeditable').factory('editableThemes', function() {
       inputTpl:    '',
       errorTpl:    '<div class="editable-error help-block" data-ng-if="$error" data-ng-bind="$error"></div>',
       buttonsTpl:  '<span class="editable-buttons"></span>',
-      submitTpl:   '<button type="submit" class="btn btn-primary"><span></span></button>',
-      cancelTpl:   '<button type="button" class="btn btn-default" ng-click="$form.$cancel()">'+
+      submitTpl:   '<button type="submit" class="btn btn-primary btn-sm"><span></span></button>',
+      cancelTpl:   '<button type="button" class="btn btn-secondary btn-sm" ng-click="$form.$cancel()">'+
                      '<span></span>'+
                    '</button>',
 
